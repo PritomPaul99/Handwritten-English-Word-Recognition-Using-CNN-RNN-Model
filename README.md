@@ -7,14 +7,11 @@ This project focuses on Handwritten English Word Recognition using deep learning
 ## Dataset
 
 We have used <a href="https://fki.tic.heia-fr.ch/databases/iam-handwriting-database" target="_blank">IAM Handwriting Database</a> for out project.  
-<img width="" height="" src="image link" style="margin:0px 10px 5px 0px" alt="Alternative text"/>
-<!-- Margin: all-four-side
-         Margin: top-bottom left-right
-         Margin: top left-right bottom
-         Margin: top right bottom left -->
+<p align="center"><img width="400" height="100%" src="https://github.com/PritomPaul99/Handwritten-English-Word-Recognition-Using-CNN-RNN-Model/blob/main/images/IAM_dataset_structure.png?raw=true" style="margin:0px 10px 5px 0px" alt="IAM Dataset tree Structure"/></p>  
 The portion of the dataset we have used in this project consists of handwritten English words. It has been organized and prepared for training, validation, and testing. The dataset is sourced from the IAM Words dataset, and details on data collection and processing can be found in the provided Jupyter notebook.
 
 ## Data Preprocessing
+
 The dataset is split into training, validation, and test subsets. The images are preprocessed to ensure uniformity, including distortion-free resizing and character label vectorization. The character vocabulary is established using StringLookup layers from TensorFlow.
 
 ## Model Architecture
