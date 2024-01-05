@@ -7,7 +7,7 @@ This project focuses on Handwritten English Word Recognition using deep learning
 ## Dataset
 
 We have used <a href="https://fki.tic.heia-fr.ch/databases/iam-handwriting-database" target="_blank">IAM Handwriting Database</a> for out project.  
-<p align="center"><img width="400" height="100%" src="https://github.com/PritomPaul99/Handwritten-English-Word-Recognition-Using-CNN-RNN-Model/blob/main/images/IAM_dataset_structure.png?raw=true" style="margin:0px 10px 5px 0px" alt="IAM Dataset tree Structure"/></p>  
+<p align="center"><img width="400" height="100%" src="https://github.com/PritomPaul99/Handwritten-English-Word-Recognition-Using-CNN-RNN-Model/blob/main/images/IAM_dataset_structure.png?raw=true" alt="IAM Dataset tree Structure"/></p>  
 The portion of the dataset we have used in this project consists of handwritten English words. It has been organized and prepared for training, validation, and testing. The dataset is sourced from the IAM Words dataset, and details on data collection and processing can be found in the provided Jupyter notebook.
 
 ## Data Preprocessing
@@ -42,12 +42,8 @@ Inference is demonstrated using the trained model on a sample from the test data
 
 The project aims to achieve accurate recognition of handwritten English words. The model's performance is evaluated using the Edit Distance metric, providing insights into the accuracy of predictions.
 
+<p align="center"><img width="100%" height="100%" src="https://github.com/PritomPaul99/Handwritten-English-Word-Recognition-Using-CNN-RNN-Model/blob/main/images/output1.png?raw=true" alt="Result/Output"/></p>
+
 ## Conclusion
 
 Handwritten English Word Recognition is a challenging task, and this project addresses it using deep learning techniques. The provided documentation guides users through dataset preparation, model training, and inference, enabling them to understand, replicate, and extend the project.
-
-
-
-
-
-
